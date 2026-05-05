@@ -1,8 +1,8 @@
 name: hello world
 on: push
 jobs: 
- build: 
-  runs-on: ubuntu-latest
-  steps: 
-  - name: build step
-    run: echo "demo build, ${{vars.MY_NAME}}"
+  build: 
+   runs-on: ubuntu-latest
+   steps: 
+   - name: build step
+     run: echo "demo build,${{vars.MY_NAME}}"
